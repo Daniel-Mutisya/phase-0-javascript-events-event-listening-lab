@@ -3,7 +3,7 @@ require ( './helpers.js' );
 const sinon = require('sinon');
 
 describe("index.js", () => {
-  let input;
+  let input; 
 
   beforeEach(function() {
     input = document.getElementById('button');
